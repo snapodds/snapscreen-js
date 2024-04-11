@@ -119,6 +119,9 @@
                                 <a href="#build" >build</a>
                             </li>
                             <li>
+                                <a href="#onClipCreated" >onClipCreated</a>
+                            </li>
+                            <li>
                                 <a href="#onClose" >onClose</a>
                             </li>
                             <li>
@@ -152,10 +155,19 @@
                                 <a href="#setBranding" >setBranding</a>
                             </li>
                             <li>
+                                <a href="#setClipShareApiUrl" >setClipShareApiUrl</a>
+                            </li>
+                            <li>
                                 <a href="#setLanguage" >setLanguage</a>
                             </li>
                             <li>
                                 <a href="#setLogLevel" >setLogLevel</a>
+                            </li>
+                            <li>
+                                <a href="#setSnapBackHidden" >setSnapBackHidden</a>
+                            </li>
+                            <li>
+                                <a href="#setSnapTarget" >setSnapTarget</a>
                             </li>
                             <li>
                                 <a href="#setUsState" >setUsState</a>
@@ -300,7 +312,7 @@
 
 
                                     <td>
-                                        <p>: dom element where the sdk will be appended to</p>
+                                        <p>dom element where the sdk will be appended to</p>
 
                                     </td>
                                 </tr>
@@ -348,6 +360,62 @@
                     <div class="io-description">
                         <b>Returns : </b>        <code><a href="../classes/SdkBuilder.html" target="_self" >SdkBuilder</a></code>
 
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onClipCreated"></a>
+                    <span class="name">
+                        <span ><b>onClipCreated</b></span>
+                        <a href="#onClipCreated"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onClipCreated(clipCreatedCallback: (clip: <a href="../interfaces/Clip.html">Clip</a>) => void)</code>
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>clipCreatedCallback</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/function" target="_blank" >function</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
                     </div>
                 </td>
             </tr>
@@ -926,7 +994,7 @@
             </tr>
             <tr>
                 <td class="col-md-4">
-<code>setBranding(branding: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank">boolean</a>)</code>
+<code>setBranding(branding: boolean | "snapodds" | "clipshare" | "none")</code>
                 </td>
             </tr>
 
@@ -951,7 +1019,63 @@
                                 <tr>
                                     <td>branding</td>
                                     <td>
-                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+                                            <code>boolean | &quot;snapodds&quot; | &quot;clipshare&quot; | &quot;none&quot;</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setClipShareApiUrl"></a>
+                    <span class="name">
+                        <span ><b>setClipShareApiUrl</b></span>
+                        <a href="#setClipShareApiUrl"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setClipShareApiUrl(clipShareApiUrl: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>clipShareApiUrl</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
                                     </td>
 
                                     <td>
@@ -1064,6 +1188,118 @@
                                     <td>logLevel</td>
                                     <td>
                                             <code>&quot;debug&quot; | &quot;info&quot; | &quot;warn&quot; | &quot;error&quot; | &quot;silent&quot;</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setSnapBackHidden"></a>
+                    <span class="name">
+                        <span ><b>setSnapBackHidden</b></span>
+                        <a href="#setSnapBackHidden"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setSnapBackHidden(hidden: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank">boolean</a>)</code>
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>hidden</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setSnapTarget"></a>
+                    <span class="name">
+                        <span ><b>setSnapTarget</b></span>
+                        <a href="#setSnapTarget"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setSnapTarget(target: "sport" | "epg")</code>
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>target</td>
+                                    <td>
+                                            <code>&quot;sport&quot; | &quot;epg&quot;</code>
                                     </td>
 
                                     <td>

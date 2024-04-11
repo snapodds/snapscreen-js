@@ -44,6 +44,9 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                         </div>
                         <ul class="links collapse in" ${ isNormalMode ? 'id="classes-links"' : 'id="xs-classes-links"' }>
                             <li class="link">
+                                <a href="classes/ClipShareSdkBuilder.html" data-type="entity-link" >ClipShareSdkBuilder</a>
+                            </li>
+                            <li class="link">
                                 <a href="classes/LiveEventsStatusChangedDetector.html" data-type="entity-link" >LiveEventsStatusChangedDetector</a>
                             </li>
                             <li class="link">
@@ -81,10 +84,28 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                 <a href="interfaces/AccessToken.html" data-type="entity-link" >AccessToken</a>
                             </li>
                             <li class="link">
+                                <a href="interfaces/Clip.html" data-type="entity-link" >Clip</a>
+                            </li>
+                            <li class="link">
+                                <a href="interfaces/ClipPreview.html" data-type="entity-link" >ClipPreview</a>
+                            </li>
+                            <li class="link">
+                                <a href="interfaces/ClipPreviewFrame.html" data-type="entity-link" >ClipPreviewFrame</a>
+                            </li>
+                            <li class="link">
+                                <a href="interfaces/ClipPreviewSettings.html" data-type="entity-link" >ClipPreviewSettings</a>
+                            </li>
+                            <li class="link">
                                 <a href="interfaces/Competitor.html" data-type="entity-link" >Competitor</a>
                             </li>
                             <li class="link">
                                 <a href="interfaces/Config.html" data-type="entity-link" >Config</a>
+                            </li>
+                            <li class="link">
+                                <a href="interfaces/EpgUnit.html" data-type="entity-link" >EpgUnit</a>
+                            </li>
+                            <li class="link">
+                                <a href="interfaces/FragmentLink.html" data-type="entity-link" >FragmentLink</a>
                             </li>
                             <li class="link">
                                 <a href="interfaces/GeoLocation.html" data-type="entity-link" >GeoLocation</a>
@@ -115,6 +136,9 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                             </li>
                             <li class="link">
                                 <a href="interfaces/SportsBook.html" data-type="entity-link" >SportsBook</a>
+                            </li>
+                            <li class="link">
+                                <a href="interfaces/TimestampedLink.html" data-type="entity-link" >TimestampedLink</a>
                             </li>
                             <li class="link">
                                 <a href="interfaces/TvChannel.html" data-type="entity-link" >TvChannel</a>
